@@ -1,9 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2006
+VisualStudioVersion = 15.0.27004.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchBit.Blockchain", "SwitchBit.Blockchain\SwitchBit.Blockchain.csproj", "{0017227D-48B0-4382-9485-ED421B9C1119}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwitchBit.Blockchain", "src\SwitchBit.Blockchain\SwitchBit.Blockchain.csproj", "{3FC684B5-0AA1-417D-8E87-45E079D8599A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwitchBit.Blockchain.Bitcoin", "src\SwitchBit.Blockchain.Bitcoin\SwitchBit.Blockchain.Bitcoin.csproj", "{B410EF42-F51F-4F00-B1A2-CCA78DE3D6FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{183128D1-59CB-4C43-A900-9B1F840BF030}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +18,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0017227D-48B0-4382-9485-ED421B9C1119}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0017227D-48B0-4382-9485-ED421B9C1119}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0017227D-48B0-4382-9485-ED421B9C1119}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0017227D-48B0-4382-9485-ED421B9C1119}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FC684B5-0AA1-417D-8E87-45E079D8599A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FC684B5-0AA1-417D-8E87-45E079D8599A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FC684B5-0AA1-417D-8E87-45E079D8599A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FC684B5-0AA1-417D-8E87-45E079D8599A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B410EF42-F51F-4F00-B1A2-CCA78DE3D6FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B410EF42-F51F-4F00-B1A2-CCA78DE3D6FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B410EF42-F51F-4F00-B1A2-CCA78DE3D6FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B410EF42-F51F-4F00-B1A2-CCA78DE3D6FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard1.3;net461;netstandard2.0;</TargetFrameworks>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>0.1.1</Version>
+    <Authors />
+    <Company>SwitchBit, Inc.</Company>
+    <Description>Generic JSON client for a cryptocurrency's RPC server</Description>
+    <Copyright></Copyright>
+    <PackageLicenseUrl>https://github.com/switchbit/blockchain/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/switchbit/blockchain</PackageProjectUrl>
+    <PackageIconUrl>https://github.com/switchbit/blockchain/assets/nuget-icon.png</PackageIconUrl>
+    <RepositoryUrl>https://github.com/switchbit/blockchain</RepositoryUrl>
+    <PackageTags>blockchain</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+    <PackageReference Include="System.Net.Http" Version="4.3.3" />
+    <PackageReference Include="System.Net.Requests" Version="4.3.0" />
+  </ItemGroup>
+
+</Project>
