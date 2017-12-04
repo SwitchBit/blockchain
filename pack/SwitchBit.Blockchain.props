@@ -1,0 +1,14 @@
+<Project>
+	<PropertyGroup>
+		<TargetFrameworks>netstandard1.3;net461;netstandard2.0;</TargetFrameworks>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<Version>0.1.1</Version>
+		<Authors />
+		<Company>SwitchBit, Inc.</Company>
+		<Copyright>Copyright © 2017 SwitchBit, Inc.</Copyright>
+		<PackageLicenseUrl>https://github.com/switchbit/blockchain/LICENSE</PackageLicenseUrl>
+		<PackageProjectUrl>https://github.com/switchbit/blockchain</PackageProjectUrl>
+		<PackageIconUrl>https://github.com/switchbit/blockchain/assets/nuget-icon.png</PackageIconUrl>
+		<RepositoryUrl>https://github.com/switchbit/blockchain</RepositoryUrl>
+	</PropertyGroup>
+</Project>

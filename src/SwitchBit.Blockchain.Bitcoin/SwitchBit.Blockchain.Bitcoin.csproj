@@ -1,7 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
+  <ImportGroup>
+    <Import Project="../../pack/SwitchBit.Blockchain.props" />
+  </ImportGroup>
+
   <PropertyGroup>
-    <TargetFrameworks>netstandard1.3;net461;netstandard2.0;</TargetFrameworks>
+    <Description>RPC Client for the Bitcoin-QT client or bitcoind. </Description>
+    <Copyright>Copyright © 2017 SwitchBit, Inc.</Copyright>
   </PropertyGroup>
 
   <ItemGroup>
