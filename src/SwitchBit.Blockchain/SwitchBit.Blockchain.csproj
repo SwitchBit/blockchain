@@ -7,10 +7,6 @@
   <PropertyGroup>
     <Description>Generic JSON client for a cryptocurrency's RPC server</Description>
   </PropertyGroup>
-  
-  <ItemGroup>
-    <Compile Include="README.md" />
-  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
