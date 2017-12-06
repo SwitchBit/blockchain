@@ -259,3 +259,5 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
+/src/SwitchBit.Blockchain.Bitcoin/SwitchBit.Blockchain.Bitcoin.nuspec
+/src/SwitchBit.Blockchain/SwitchBit.Blockchain.nuspec
